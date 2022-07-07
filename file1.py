@@ -1,0 +1,8 @@
+fo = open("E:\\f1.txt", "r+")
+fo.write("Now this file has some content!\n Python is an interesting langauge")
+#fo = open("E:\\f1.txt", "a")
+fo.write("Algebra")
+fo.seek(0)
+s=fo.read()
+print("read",s)
+fo.close()
